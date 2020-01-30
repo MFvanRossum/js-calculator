@@ -109,3 +109,18 @@ buttonAdd.addEventListener('click', function outputCalc (){
     let newOutput = document.createTextNode('+')
     output.append(newOutput)
 })
+
+let buttonEq = document.querySelector('.equals')
+buttonEq.addEventListener('click', function outputCalc (){
+    let output = document.querySelector('.output')
+    let outputEq = output.innerText
+    let ans = eval(outputEq)
+    output.innerHTML = ans
+})
+
+let buttonC = document.querySelector('.clear')
+buttonC.addEventListener('click', function outputCalc (){
+    let output = document.querySelector('.output')
+    let newOutput = ""
+    output.innerHTML = newOutput
+})
