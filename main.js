@@ -81,3 +81,31 @@ buttonDecimal.addEventListener('click', function outputCalc (){
     let newOutput = document.createTextNode('.')
     output.append(newOutput)
 })
+
+let buttonDiv = document.querySelector('.divide')
+buttonDiv.addEventListener('click', function outputCalc (){
+    let output = document.querySelector('.output')
+    let newOutput = document.createTextNode('/')
+    output.append(newOutput)
+})
+
+let buttonMult = document.querySelector('.multiply')
+buttonMult.addEventListener('click', function outputCalc (){
+    let output = document.querySelector('.output')
+    let newOutput = document.createTextNode('*')
+    output.append(newOutput)
+})
+
+let buttonSub = document.querySelector('.subtract')
+buttonSub.addEventListener('click', function outputCalc (){
+    let output = document.querySelector('.output')
+    let newOutput = document.createTextNode('-')
+    output.append(newOutput)
+})
+
+let buttonAdd = document.querySelector('.add')
+buttonAdd.addEventListener('click', function outputCalc (){
+    let output = document.querySelector('.output')
+    let newOutput = document.createTextNode('+')
+    output.append(newOutput)
+})
