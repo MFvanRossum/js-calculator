@@ -1,4 +1,10 @@
-# Build a Calculator
+# Calculator
+
+A basic calculator built using JavaScript. 
+
+Open the calculator by running 'open index.html' in the terminal after cloning this repository. 
+
+This project was an assignment for Momentum Learning's Immersive Full Stack Development Course. The instructions for the assignment are listed below:
 
 ## Directions
 
